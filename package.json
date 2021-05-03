@@ -1,26 +1,29 @@
 {
-  "name": "daimond-pinger",
-  "version": "1.0.0",
-  "description": "A tool to ping your websites!",
-  "main": "index.js",
-  "dependencies": {
-    "@replit/database": "^2.0.0",
-    "axios": "^0.21.1",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daimond113/daimond113-pinger.git"
-  },
-  "author": "https://github.com/daimond113/",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/daimond113/daimond113-pinger/issues"
-  },
-  "homepage": "https://github.com/daimond113/daimond113-pinger#readme"
+	"name": "daimond-pinger",
+	"version": "1.0.0",
+	"description": "A tool to ping your websites!",
+	"main": "build/index.js",
+	"dependencies": {
+		"@replit/database": "^2.0.0",
+		"axios": "^0.21.1",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@types/node": "^15.0.1",
+		"typescript": "^4.2.4"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "tsc && node ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/daimond113/daimond113-pinger.git"
+	},
+	"author": "https://github.com/daimond113/",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/daimond113/daimond113-pinger/issues"
+	},
+	"homepage": "https://github.com/daimond113/daimond113-pinger#readme"
 }
