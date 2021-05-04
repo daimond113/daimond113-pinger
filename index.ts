@@ -1,5 +1,5 @@
-const express = require('express')
-const axios = require('axios')
+import * as express from 'express'
+import axios from 'axios'
 const app = express()
 
 setInterval(() => {
