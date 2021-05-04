@@ -3,7 +3,7 @@ import axios from 'axios'
 const app = express()
 
 setInterval(() => {
-	const items = process.env.URLS.split(',')
+	const items = process.env.URLS.split(/ +/)
 	for (const file of items) {
 		axios.head(file).catch((e) => {
 			console.log(e)
