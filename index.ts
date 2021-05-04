@@ -12,7 +12,7 @@ setInterval(() => {
 }, 1800000)
 
 app.get('/', (req, res) => {
-	res.status(301).redirect('https://daimond113.com')
+	res.status(302).redirect('https://daimond113.com')
 })
 
 app.listen(3000)
