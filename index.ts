@@ -15,4 +15,6 @@ app.get('/', (req, res) => {
 	res.status(302).redirect('https://daimond113.com')
 })
 
-app.listen(3000)
+app.listen(3000, () => {
+	console.log('Application is listening on port 3000')
+})
